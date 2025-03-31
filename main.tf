@@ -1,5 +1,8 @@
 provider "google" {
   project = var.project_id
+  default_labels = {
+    goog-partner-solution = "isol_plb32_001kf00000wit3yiaq_l4c6fi5bbr5b53tglkwdzx5emb5volgc"
+  }
 }
 
 locals {
