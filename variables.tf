@@ -36,7 +36,7 @@ variable "boot_disk_type" {
 variable "boot_disk_size" {
   description = "The boot disk size for the VM instance in GBs"
   type        = number
-  default     = 20
+  default     = 25
 }
 
 variable "networks" {

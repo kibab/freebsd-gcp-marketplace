@@ -18,7 +18,7 @@ terraform plan --var-file marketplace_test.tfvars --var project_id=<YOUR_PROJECT
 | zone | The zone for the solution to be deployed. | `string` | `"us-west1-c"` | no |
 | machine_type | The machine type to create, e.g. e2-small | `string` | `"n2d-standard-2"` | no |
 | boot_disk_type | The boot disk type for the VM instance. | `string` | `"pd-standard"` | no |
-| boot_disk_size | The boot disk size for the VM instance in GBs | `number` | `20` | no |
+| boot_disk_size | The boot disk size for the VM instance in GBs | `number` | `25` | no |
 | networks | The network name to attach the VM instance. | `list(string)` | `["default"]` | no |
 | sub_networks | The sub network name to attach the VM instance. | `list(string)` | `[]` | no |
 | external_ips | The external IPs assigned to the VM for public access. | `list(string)` | `["EPHEMERAL"]` | no |
